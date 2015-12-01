@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>50n</key>
+	<string>mist.png</string>
+	<key>50d</key>
+	<string>mist.png</string>
+	<key>13n</key>
+	<string>snow.png</string>
+	<key>13d</key>
+	<string>snow.png</string>
+	<key>11n</key>
+	<string>thunderstorm.png</string>
+	<key>11d</key>
+	<string>thunderstorm.png</string>
+	<key>10n</key>
+	<string>rain.png</string>
+	<key>10d</key>
+	<string>rain.png</string>
+	<key>04d</key>
+	<string>broken clouds.png</string>
+	<key>03d</key>
+	<string>scattered clouds.png</string>
+	<key>02n</key>
+	<string>few clouds.png</string>
+	<key>01n</key>
+	<string>clear sky.png</string>
+	<key>09n</key>
+	<string>shower rain.png</string>
+	<key>04n</key>
+	<string>broken clouds.png</string>
+	<key>03n</key>
+	<string>scattered clouds.png</string>
+	<key>02d</key>
+	<string>few clouds.png</string>
+	<key>01d</key>
+	<string>clear sky.png</string>
+	<key>09d</key>
+	<string>shower rain.png</string>
+</dict>
+</plist>
