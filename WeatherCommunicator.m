@@ -19,7 +19,8 @@
 {
    // NSString *urlAsString = [NSString stringWithFormat:@"https://api.meetup.com/2/groups?lat=%f&lon=%f&page=%d&key=%@", coordinate.latitude, coordinate.longitude, PAGE_COUNT, API_KEY];
    //api.openweathermap.org/data/2.5/weather?q=London,uk
-    	NSString *urlAsString = [NSString stringWithFormat:@"http://api.openweathermap.org/data/2.5/weather?q=%@&appid=2de143494c0b295cca9337e1e96b00e0",cityName];
+    	NSString *urlAsString = [NSString stringWithFormat:@"http://api.openweathermap.org/data/2.5/weather?q=%@&appid=3e077939b771ed5105589b14dc3a28ce",cityName];
+    //api.openweathermap.org/data/2.5/weather?q=
     //NSString *urlAsString = [NSString stringWithFormat:@"http://api.openweathermap.org/data/2.5/weather?q=Miami"];
     
     NSURL *url = [[NSURL alloc] initWithString:urlAsString];

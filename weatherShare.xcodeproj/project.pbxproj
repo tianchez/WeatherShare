@@ -13,10 +13,6 @@
 		B8DB4C581AF8AD1D007D62B1 /* EnterCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DB4C571AF8AD1D007D62B1 /* EnterCityViewController.m */; };
 		B8DB4C5B1AF8ADBE007D62B1 /* WeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DB4C5A1AF8ADBE007D62B1 /* WeatherModel.m */; };
 		B8DB4C5E1AF8BF6F007D62B1 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DB4C5D1AF8BF6F007D62B1 /* InfoViewController.m */; };
-		B8DB4C631AF8CF93007D62B1 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DB4C5F1AF8CF93007D62B1 /* FBSDKCoreKit.framework */; };
-		B8DB4C641AF8CF93007D62B1 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DB4C601AF8CF93007D62B1 /* FBSDKLoginKit.framework */; };
-		B8DB4C651AF8CF93007D62B1 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DB4C611AF8CF93007D62B1 /* FBSDKMessengerShareKit.framework */; };
-		B8DB4C661AF8CF93007D62B1 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DB4C621AF8CF93007D62B1 /* FBSDKShareKit.framework */; };
 		B8DB4C6A1AF8D1E6007D62B1 /* FBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DB4C691AF8D1E6007D62B1 /* FBLoginViewController.m */; };
 		B8DCC1FB1AF9A89400EEE499 /* iconList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8DCC1FA1AF9A89400EEE499 /* iconList.plist */; };
 		B8DE4EC51AF94673004BF905 /* MoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DE4EC41AF94673004BF905 /* MoodViewController.m */; };
@@ -52,10 +48,6 @@
 		B8DB4C5A1AF8ADBE007D62B1 /* WeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherModel.m; sourceTree = SOURCE_ROOT; };
 		B8DB4C5C1AF8BF6F007D62B1 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		B8DB4C5D1AF8BF6F007D62B1 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
-		B8DB4C5F1AF8CF93007D62B1 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		B8DB4C601AF8CF93007D62B1 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		B8DB4C611AF8CF93007D62B1 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = ../../../Documents/FacebookSDK/FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
-		B8DB4C621AF8CF93007D62B1 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		B8DB4C681AF8D1E6007D62B1 /* FBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginViewController.h; sourceTree = "<group>"; };
 		B8DB4C691AF8D1E6007D62B1 /* FBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginViewController.m; sourceTree = "<group>"; };
 		B8DCC1FA1AF9A89400EEE499 /* iconList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iconList.plist; sourceTree = "<group>"; };
@@ -86,10 +78,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8DB4C661AF8CF93007D62B1 /* FBSDKShareKit.framework in Frameworks */,
-				B8DB4C641AF8CF93007D62B1 /* FBSDKLoginKit.framework in Frameworks */,
-				B8DB4C651AF8CF93007D62B1 /* FBSDKMessengerShareKit.framework in Frameworks */,
-				B8DB4C631AF8CF93007D62B1 /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,17 +91,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B8DB4C671AF8CFAE007D62B1 /* FaceBookAPI */ = {
-			isa = PBXGroup;
-			children = (
-				B8DB4C5F1AF8CF93007D62B1 /* FBSDKCoreKit.framework */,
-				B8DB4C601AF8CF93007D62B1 /* FBSDKLoginKit.framework */,
-				B8DB4C611AF8CF93007D62B1 /* FBSDKMessengerShareKit.framework */,
-				B8DB4C621AF8CF93007D62B1 /* FBSDKShareKit.framework */,
-			);
-			name = FaceBookAPI;
-			sourceTree = "<group>";
-		};
 		B8EFC39F1AF7EC7D0056B902 = {
 			isa = PBXGroup;
 			children = (
@@ -135,7 +112,6 @@
 		B8EFC3AA1AF7EC7D0056B902 /* weatherShare */ = {
 			isa = PBXGroup;
 			children = (
-				B8DB4C671AF8CFAE007D62B1 /* FaceBookAPI */,
 				B8EFC3E81AF81E2A0056B902 /* OpenWeatherAPI */,
 				B8EFC3B01AF7EC7D0056B902 /* AppDelegate.m */,
 				B8DB4C681AF8D1E6007D62B1 /* FBLoginViewController.h */,
